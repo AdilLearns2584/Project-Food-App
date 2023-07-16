@@ -4,78 +4,85 @@ p{
 }
 .navbar-container{
     display: flex;
+    align-items: center;
     padding: 15px 10%;
+    justify-content: space-between;
     
+}
+
+.navbar-logo-search-container {
+    display: flex;
+    align-items: center;
 }
 
 .navbar-logo{
     height: 30px;
     width:fit-content;
-    margin-right: 20px;
-    margin-top: 10px;
+}
+
+.navbar-search-container{
+    width:680px;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    padding: 8px ;
+    border: 0.5px solid #E8E8E8;
+    border-radius: 8px;
 }
 
 .search-bar{
-    width:650px;
-    border: none;
-    height: 50px;
-    border-radius: 10px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.3);
-    display: grid;
-    grid-template-columns: 30px 160px 30px 10px 30px 1fr;
-    vertical-align: middle;;
-    
+    display: flex;
+    align-items: center;
 }
 
-.location-container{
-    margin-top: 10px;
-    margin-left: 5px;
+.search-icon-container{
+    display: flex;
+    align-items: center;
 }
 
 .location-picture{
-    width:100%;
-    object-fit: cover;
-}
-
-.location{
-    font-size: 15px;
-    color: rgb(143, 142, 142);
-    margin-left: 6px;
-    margin-top:14px;
-}
-
-.arrow-container{
-    margin-top: 12px;
-    margin-left: 5px;
+    height:20px;
+    width: fit-content;
 }
 
 .arrow-picture{
-    width:60%;
-    object-fit: cover;
+    width: 20px;
 }
 
 .vertical-line{
-    height:40%;
-    border-left:1.5px solid lightgray;
-    margin-top: 11px;
-    
+    height:25px;
+}
+
+.search-icon-picture{
+    height:22px;
+    width: fit-content;
+}
+
+.location-input,
+.search-restaurant-input{
+    border:none;
+    background-color: transparent;
+    outline: none;
+    margin-left: 5px;
+    font-weight: 500;
+}
+
+.search-restaurant-input{
+    width:100%
 }
 
 
 .search-icon-container{
-    margin-top: 12px;
-    margin-left: 5px;
+    width:65%;
 }
 
-.search-icon-picture{
-    width:90%;
-    object-fit: cover;
+.navbar-login-signup-button-container{
 }
 
-.search-text{
-    font-size: 15px;
-    color: rgb(143, 142, 142);
-    margin-left: 9px;
-    margin-top:14px;
+.navbar-login-button{
+    border:none;
+    outline: none;
+    background-color: white;
+    font-size: 16px;
+    margin-right: 10px;
 }
-
